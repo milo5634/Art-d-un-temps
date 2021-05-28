@@ -96,9 +96,7 @@ li {
     padding-bottom: 50px;
 }
 
-.sinscrire {
-    width: 330px;
-    height: 19px;
+.text-slide-home {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -142,32 +140,37 @@ li {
 }
 
 //********************************
-// STYLES FORM INSCRIPTION
+// STYLES FORM INSCRIPTION/CONNEXION
 //********************************
 .custom-file-input:lang(fr)~.custom-file-label::after {
     content: "Parcourir";
 }
 
+.label-log{
+    color: white;
+}
+
 //********************************
 // STYLES CONCEPT
 //********************************
+
 .concept p {
     font-family: 'Roboto', sans-serif;
 }
 
-
 .concept img {
     width: 250px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .concept h3{
     font-family: 'noteworthybold';
 }
+
 //********************************
 // STYLES FORM CONTACT
 //********************************
+
 .bc-formulaire_contact {
     background-color: #dfdede;
 }
@@ -191,6 +194,7 @@ li {
 //********************************
 // STYLES FOOTER
 //********************************
+
 footer {
     background-color: #2F2F2F;
     color: #F5F5F5;
@@ -242,7 +246,7 @@ footer hr {
 }
 
 //********************************
-//STYLES PROFIL
+//STYLES PROFILS et BO
 //********************************
 .h2-profil {
     color: white;
@@ -259,4 +263,19 @@ footer hr {
 .li-profil {
     list-style-type: disc;
 }
+.text-table {
+    color: white;
+}
 
+.link-action {
+    padding: 10px;
+    color: #ffbf00;
+}
+
+.link-action :hover{
+    color: #ffff00;
+}
+
+.bo-footer{
+    color: #1a1a1a;
+}
