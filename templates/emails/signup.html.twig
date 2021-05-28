@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Newsletter{% endblock %}
+
+<h1>Bienvenue {{app.user.username}}!</h1>
+
+<p>
+    Vous avez souscrit en tant que {{ username }} à l'email suivant:
+</p>
+<p><code>{{ email.to[0].address }}</code></p>
+
+<p>
+    <a href="#">Cliquez ici pour activer</a>
+    (ce lien est valide {{ expiration_date|date('F jS') }})
+</p>
